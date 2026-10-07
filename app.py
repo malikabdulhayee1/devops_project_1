@@ -3,7 +3,7 @@ from flask import Flask, request
 app = Flask(__name__)
 
 MENU = """
-<h2>Flask DevOps Project</h2>
+<h2>Flask DevOps Project 1 for Devops PortFolio</h2>
 <a href="/info">info me</a> |
 <a href="/mail">mail me</a> |
 <a href="/me">about me</a> |
@@ -19,7 +19,7 @@ def home():
 
 @app.route("/info")
 def info():
-    return "this is Abdul, work for , Future Ready"
+    return "this is Abduls work for Future Ready Devops Project 1"
 
 
 @app.route("/mail")
