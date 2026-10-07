@@ -24,7 +24,7 @@ def info():
 
 @app.route("/mail")
 def mail():
-    return "this is mail"
+    return "this is mail v2 via Jenkins"
 
 
 @app.route("/me")
