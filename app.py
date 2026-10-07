@@ -19,7 +19,7 @@ def home():
 
 @app.route("/info")
 def info():
-    return "this is LW, work for Making India, Future Ready"
+    return "this is Abdul, work for , Future Ready"
 
 
 @app.route("/mail")
